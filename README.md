@@ -2,7 +2,7 @@
 
 ## Goal
 
-Build a basic model to get basic DOM skills.
+Build a basic modal to get basic DOM skills.
 
 ### Key concepts
 
