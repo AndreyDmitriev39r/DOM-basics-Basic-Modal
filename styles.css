@@ -58,6 +58,8 @@ body {
   justify-content: space-between;
   align-items: center;
   /* animation stuff goes here */
+  animation-name: animatemodal;
+  animation-duration: .4s;
 }
 
 #close-btn {
@@ -84,4 +86,15 @@ body {
   /* end of SET1 */
 }
 
+/* setting animation with keyframes */
+@keyframes animatemodal {
+  from {
+    left: 5000px;
+    opacity: 0;
+  }
+  to {
+    left: 60%;
+    opacity: 1;
+  }
+}
 
