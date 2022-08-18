@@ -3,8 +3,6 @@ const openBtn = document.getElementById('open-btn');
 const modalContainer = document.getElementById('modal-container');
 const closeBtn = document.getElementById('close-btn');
 
-// console.log(openBtn, modalContainer, closeBtn);
-
 //functions
 
 const showModal = () => {
@@ -31,3 +29,5 @@ closeBtn.addEventListener('click', hideModalbyBtn);
 window.addEventListener('click', hideModalClickAnywhere);
 
 //TODO some testing with logging e.target
+
+//OPTIONAL add some more buttons or try to use CSS preprocessor
