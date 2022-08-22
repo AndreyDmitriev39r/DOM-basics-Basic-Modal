@@ -9,6 +9,8 @@ const showModal = () => {
   modalContainer.style.display = "block";
 }
 
+//try to experiment with uniting two below funcs in one piece
+
 const hideModalbyBtn = () => {
   modalContainer.style.display = "none";
 }
